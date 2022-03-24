@@ -62,10 +62,10 @@ header {
 
     margin-right: 0.625rem;
 }
-#pizza-form {
+#survey-form {
     margin: auto;
 }
-#pizza-form p {
+#survey-form p {
     margin: 8px 0;
 }
 #name-label, #email-label, #age-label {

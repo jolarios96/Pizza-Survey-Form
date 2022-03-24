@@ -14,7 +14,7 @@
             <p id="description"> Fill out this quick survey about pizza.</p>
             <hr>
         </header>
-        <form id="pizza-form" action="" method="get">
+        <form id="survey-form" action="" method="get">
             <div class="form-group">
                 <label id="name-label" for="name">Name</label>
                 <input type="text" placeholder="Enter Your Name Here" name="name" id="name" required>
@@ -26,13 +26,13 @@
             </div>
 
             <div class="form-group">
-                <label id="age-label" for="age">Age</label>
-                <input type="number" min="1" max="120" placeholder="Enter Your Age Here" name="age" id="age" required>
+                <label id="number-label" for="number">Age</label>
+                <input type="number" min="1" max="120" placeholder="Enter Your Age Here" name="number" id="number" required>
             </div>
 
             <div class="form-group">
                 <p>What is your favorite pizza topping?</p>
-                <select id="favorite" name="favorite">
+                <select id="dropdown" name="favorite">
                     <option value="">-- Select an option --</option>
                     <option value="plain">Plain/Cheese</option>
                     <option value="pepperoni">Pepperoni</option>
@@ -59,7 +59,7 @@
                 <label><input class="input-checkbox" name="hate" type="checkbox" value="pepperoni">Pepperoni</label>
                 <label><input class="input-checkbox" name="hate" type="checkbox" value="mushroom">Mushrooms</label>
                 <label><input class="input-checkbox" name="hate" type="checkbox" value="olive">Olives</label>
-                <label><input class="input-checkbox"="hate" type="checkbox" value="meatball">Meatballs</label>
+                <label><input class="input-checkbox" name="hate" type="checkbox" value="meatball">Meatballs</label>
                 <label><input class="input-checkbox" name="hate" type="checkbox" value="pineapple">Pineapples</label>
             </div>
             <div class="form-group">
@@ -67,7 +67,7 @@
                 <textarea id="comment" name="comment" rows="4" placeholder="Type your comment here:"></textarea>
             </div>
 
-            <button type="submit" class="submit-btn">
+            <button id="submit" type="submit" class="submit-btn">
                 Submit
             </button>
         </form>
