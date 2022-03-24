@@ -1,10 +1,77 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>My test page</title>
-  </head>
-  <body>
-    <p>This is my page</p>
-  </body>
+    <title>A Pizza Survey</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="title">It's Pizza Time!</h1>
+            <p id="description"> Fill out this quick survey about pizza.</p>
+            <hr>
+        </header>
+        <form id="pizza-form" action="" method="get">
+            <div class="form-group">
+                <label id="name-label" for="name">Name</label>
+                <input type="text" placeholder="Enter Your Name Here" name="name" id="name" required>
+            </div>
+
+            <div class="form-group">
+                <label id="email-label" for="email">Email</label>
+                <input type="email" placeholder="Enter Your Email Here" name="email" id="email" required>
+            </div>
+
+            <div class="form-group">
+                <label id="age-label" for="age">Age</label>
+                <input type="number" min="1" max="120" placeholder="Enter Your Age Here" name="age" id="age" required>
+            </div>
+
+            <div class="form-group">
+                <p>What is your favorite pizza topping?</p>
+                <select id="favorite" name="favorite">
+                    <option value="">-- Select an option --</option>
+                    <option value="plain">Plain/Cheese</option>
+                    <option value="pepperoni">Pepperoni</option>
+                    <option value="mushroom">Mushrooms</option>
+                    <option value="olive">Olives</option>
+                    <option value="meatball">Meatballs</option>
+                    <option value="pineapple">Pineapples</option>
+                    <option value="none">No Preference</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Is that choice popular with most other people?</p>
+                <label>
+                    <input name="popular" value="yes" type="radio" class="input-radio" />Yes</label>
+                <label>
+                    <input name="popular" value="no" type="radio" class="input-radio" />No</label>
+
+                <label><input name="popular" value="not-sure" type="radio" class="input-radio" />Not Sure</label>
+            </div>
+
+            <div class="form-group">
+                <p>Which of the following do you never want to see on pizza? (check all that apply)</p>
+                <label><input class="input-checkbox" name="hate" type="checkbox" value="pepperoni">Pepperoni</label>
+                <label><input class="input-checkbox" name="hate" type="checkbox" value="mushroom">Mushrooms</label>
+                <label><input class="input-checkbox" name="hate" type="checkbox" value="olive">Olives</label>
+                <label><input class="input-checkbox"="hate" type="checkbox" value="meatball">Meatballs</label>
+                <label><input class="input-checkbox" name="hate" type="checkbox" value="pineapple">Pineapples</label>
+            </div>
+            <div class="form-group">
+                <p>What makes these options your favorite/least liked?</p>
+                <textarea id="comment" name="comment" rows="4" placeholder="Type your comment here:"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                Submit
+            </button>
+        </form>
+    </div>
+</body>
+
 </html>

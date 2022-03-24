@@ -1,0 +1,98 @@
+html {
+    /*
+    Photo by https://unsplash.com/@iavnt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+    Ivan Torres on https://unsplash.com/s/photos/pizza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+    */
+    background-image:url(ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    font-family: Helvetica, Arial, sans-serif;
+}
+body {
+    width: 100%;
+}
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.container {
+    width: 35%;
+    margin: auto;
+    padding: 25px;
+    
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    
+    background-color: rgba(41, 41, 41, 0.863);
+    
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.432);
+
+    color: white;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.input-checkbox {
+    display: inline-block;
+    min-height: 1.2rem;
+    min-width: 1.2rem;
+
+    margin-right: 0.625rem;
+}
+#pizza-form {
+    margin: auto;
+}
+#pizza-form p {
+    margin: 8px 0;
+}
+#name-label, #email-label, #age-label {
+    display: flex;
+}
+#name, #email, #age, #comment {
+    width: 100%;
+    margin: 10px 0 10px 0;
+}
+select {
+    size: 1.2rem;
+}
+#comment {
+    margin: 0 0 10px 0;
+}
+textarea{
+    resize: none;
+}
+input, button, select, textarea {
+    box-sizing: border-box;
+    color: rgb(22, 22, 22);
+    font-size: medium;
+    font-family: inherit;
+}
+button{
+    border: none;
+}
+.submit-btn {
+    display: block;
+    text-align: center;
+    background: #309e34;
+    height: 2rem;
+    width: 100%;
+
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#title {
+    margin: 0 auto;
+}
+#description{
+    margin: 12px auto;
+}
