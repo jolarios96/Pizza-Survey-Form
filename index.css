@@ -3,7 +3,7 @@ html {
     Photo by https://unsplash.com/@iavnt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
     Ivan Torres on https://unsplash.com/s/photos/pizza?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
     */
-    background-image:url(ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-image:url(assets/ivan-torres-MQUqbmszGGM-unsplash.jpg);
 
     /* fallback image */
     background-image:url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
